@@ -1,3 +1,5 @@
+import numpy as np
+
 """
 Ejercicio 6. Elaborar un script el cual:
 1. Genere el siguiente array 2-D:
@@ -11,3 +13,8 @@ Ejercicio 6. Elaborar un script el cual:
 2. Imprimir en pantalla el array.
 3. Imprimir en pantalla el tipo de array.
 """
+
+
+aux = (4, 4)
+a = np.zeros(aux, dtype=np.int_)
+print(a)

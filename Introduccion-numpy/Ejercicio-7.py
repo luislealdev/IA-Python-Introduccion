@@ -1,3 +1,5 @@
+import numpy as np
+
 """
 Ejercicio 7. Elaborar un script el cual:
 1. Genere el siguiente array:
@@ -7,3 +9,6 @@ Ejercicio 7. Elaborar un script el cual:
    de 1-D de manera automática.
 2. Imprimir en pantalla el array.
 """
+
+a = np.array(np.arange(0, 210, 10))
+print(a)
